@@ -1,0 +1,540 @@
+@import 'fonts.css';
+
+:root{
+    --s-w: 'segoewp';
+    --o-m: 'optima';
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* ----------------- header ------------------- */
+
+.bg-light {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #323332;
+    font-family: var(--s-w);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    padding: 8px 20px;
+    background: #373737;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+/* --------------- main --------------------- */
+
+main{
+    margin-bottom: 45px;
+}
+
+main h1{
+    padding-top: 185px;
+    font-family: var(--s-w);
+    font-size: 61.13px;
+    color: #5d5d5d;
+}
+
+main h2{
+    font-family: var(--s-w);
+    font-size: 47.13px;
+    color: #5d5d5d;
+}
+
+main a{
+    background: #373737;
+    display: flex;
+    align-items: center;
+    width: 204px;
+    height: 39px;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 20px;
+}
+
+main a:hover{
+    text-decoration: none;
+    background: #272727c9;
+}
+
+main a img{
+    height: 15px;
+    width: 30px;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+main a p{
+    font-family: var(--s-w);
+    color: #ffffff;
+    font-size: 23px;
+    padding-top: 10px;
+}
+
+main .col-lg-8 img{
+    margin-top: 115px;
+}
+
+/* ------------ section---------------- */
+section{
+    margin-bottom: 50px;
+}
+
+section .tepa{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+section .telmonitortext{
+    flex-direction: column;
+}
+
+section .telmonitortext h2{
+    font-family: var(--s-w);
+    font-size: 30px;
+    color: #696161;
+}
+
+section .telmonitortext p{
+    font-family: var(--s-w);
+    font-size: 14px;
+    color: #848484;
+}
+
+section .telmonitortext p span{
+    opacity: 0;
+}
+
+section .tepa .telmonitor{
+    margin-right: 25px;
+} 
+
+section .nextprev{
+    text-align: end;
+}
+
+section .nextprev .next{
+    font-size: 25px;
+    color: #ffffff;
+    background: #989998;
+    padding: 5px 10px 5px 10px;
+}
+
+section .nextprev .prev{
+    font-size: 25px;
+    color: #ffffff;
+    background: #7c7d7c;
+    padding: 5px 5px 5px 10px;
+}
+
+section .next:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+section .prev:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+section .col-lg-4 h3{
+    font-family: var(--s-w);
+    font-size: 24px;
+    color: #696161;
+}
+
+section .col-lg-4 p{
+    font-family: var(--s-w);
+    font-size: 14px;
+    color: #848484;
+}
+
+section .tua{
+    border: 1px solid #e1dddd;
+    width: 323px;
+    height: 253px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+section .tua h2{
+    font-family: var(--s-w);
+    font-size: 21px;
+    color: #9ba08d;
+    text-align: center;
+    padding-top: 20px;
+}
+
+section .tua h2 span{
+    font-size: 39px;
+    color: #b8dc58;
+    font-weight: 700;
+}
+
+section .rekimg{
+    margin-left: 40px;
+}
+
+section .rekplanshet{
+    margin-right: 30px;
+    vertical-align: bottom;
+}
+
+section .rekcss{
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 10px;
+}
+
+section .ipadguide .tua:hover{
+    border: 1px solid #e70d0d;
+}
+
+section .week{
+    position: relative;
+    background: #000;
+    width: 319px;
+    height: 271px;
+    background: #86e7f0;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+section .onikkiweek{
+    border-radius: 100%;
+    background: #ef809f;
+    text-align: center;
+    width: 127px;
+    height: 126px;
+    position: relative;
+    border: 5px solid #ffffff;
+    top: -8%;
+    left: 29%;
+}
+
+section .onikkiweek h1{
+    font-size: 21.71px;
+    color: #ffffff;
+    font-family: var(--s-w);
+    line-height: 1;
+    padding-top: 10px;
+}
+
+section .onikkiweek h1 span{
+    font-size: 71.58px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: var(--s-w);
+}
+
+section .week h2{
+    font-family: var(--s-w);
+    font-size: 46.19px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -20px;
+}
+
+section .week p{
+    font-family: var(--o-m);
+    font-size: 23.43px;
+    color: #ffffff;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+section .week a{
+    font-family: var(--o-m);
+    color: #ffffff;
+    font-size: 20.14px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background: #58d1dc;
+    border-radius: 10px;
+    width: 179px;
+    height: 33px;
+    margin-left: 22%;
+    margin-top: -10px;
+}
+
+section .week a:hover{
+    background: #12838d;
+}
+
+section .mail{
+    width: 319px;
+    height: 265px;
+    background: #393a39;
+    border-bottom: 5px solid #bb4465;
+}
+
+section .email{
+    padding: 20px;
+}
+
+section .mail h2{
+    font-family: var(--s-w);
+    font-size: 27px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section .mail p{
+    font-family: var(--s-w);
+    font-size: 14px;
+    color: #ffffff;
+}
+
+section .mail input{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: var(--s-w);
+    color: #787878;
+    padding-left: 5px;
+}
+
+section .mail button{
+    font-family: var(--o-m);
+    font-size: 20.14px;
+    color: #ffffff;
+    width: 179px;
+    height: 33px;
+    background: #bb4465;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    margin-left: 17%;
+}
+
+section .mail button:hover{
+    background: #e94c76;
+}
+
+/* ------------------footer---------------------- */
+
+footer{
+    background: #393a39;
+}
+
+footer .futer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 35px 0px;
+}
+
+footer p{
+    font-size: 16px;
+    color: #ffffffa6;
+    margin-left: 35%;
+}
+
+footer .icons img{
+    padding-left: 10px;
+}
+
+/* ----------------- media----------------------- */
+
+@media(max-width:1199px){
+
+    main .col-lg-8 img {
+        width: 100%;
+    }
+}
+
+@media(max-width:991px){
+
+    main .col-lg-4{
+        text-align: center;
+    }
+
+    main a {
+        margin-left: 35%;
+    }
+
+    main h1 {
+        padding-top: 50px;
+    }
+
+    section .reklama{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    section .mailreklama{
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer p{
+        margin-left: 25%;
+    }
+}
+
+@media(max-width:767px){
+    
+    section .tepa{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section .tepa .telmonitor {
+        margin-right: 0px;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    section .tekst{
+        justify-content: center;
+    }
+
+    footer p {
+        margin-left: 15%;
+    }
+
+    main a {
+        margin-left: 30%;
+    }
+}
+
+@media(max-width:575px){
+    
+    header img{
+        width: 50%;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 10px;
+    }
+
+    main h1 {
+        padding-top: 25px;
+        font-size: 50px;
+    }
+
+    main h2 {
+        font-size: 30px;
+    }
+
+    main a {
+        margin-top: 10px;
+        width: 180px;
+        margin-left: 34%;
+    }
+
+    main a p {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    
+}
+
+@media(max-width:477px){
+    footer p {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:450px){
+
+    main a{
+        margin-left: 29%;
+    }
+
+    section .tepa .telmonitor {
+        height: 300px;
+    }
+
+    footer .icons img {
+        width: 20%;
+        padding-left: 0px;
+    }
+    
+}
+
+@media(max-width:401px){
+    
+    footer p {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 350px){
+
+    main a{
+        margin-left: 23%;
+    }
+
+    section .tepa .telmonitor {
+        height: 250px;
+    }
+}
+
+@media(max-width:336px){
+    
+    .navbar-toggler {
+        padding: 0.1rem 0.1rem;
+        font-size: 1.01rem;
+    }
+
+    section .onikkiweek {
+        width: 100px;
+        height: 100px;
+        left: 33%;
+    }
+
+    section .onikkiweek h1 span {
+        font-size: 51.58px;
+    }
+
+    section .onikkiweek h1 {
+        font-size: 15.71px;
+    }
+
+    section .week h2 {
+        font-size: 26.19px;
+        margin-top: 0px;
+    }
+
+    section .week p {
+        font-size: 18.43px;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    section .week a {
+        font-size: 15.14px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        width: 179px;
+        height: 33px;
+        margin-left: 22%;
+        margin-top: 10px;
+    }
+
+    footer .icons img {
+        width: 15%;
+    }  
+    
+    footer p {
+        font-size: 8px;
+    }
+}
+
+/* -------------------end------------------ */
